@@ -1,0 +1,12 @@
+.fondo{  
+    width: 100%;
+    height: 610px;
+    background-image: url(https://publica.la/wp-content/uploads/2018/05/art-artist-blur-436775-750x400.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.title_page{
+    font-size: 50px;
+}

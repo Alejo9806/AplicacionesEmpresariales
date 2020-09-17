@@ -1,0 +1,28 @@
+<div class="back">
+  <div class="container pt-5">
+      <div class="card-group">
+     <div class="row">
+          <div *ngFor="let producto of productos" class="card col-lg-3 col-md-3 mt-5" >
+            <img class="card-img-top img-fluid thumbnail" style="max-width: 100%; max-height: 200px;" src="{{producto.thumbnail}}"  alt="Card image cap" (click)="selecetedProduc(producto.id)">
+            <div class="card-body">
+              <h5 class="card-title title" (click)="selecetedProduc(producto.id)">{{producto.title}}</h5>
+              <p class="card-text text-muted">$ {{producto.price}}</p>
+              <p class="card-text text-muted">{{producto.address.state_name}}</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Alejandro Muñoz Shop</small>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination center mt-5 mb-4" >
+          <li class="page-item point"><a class="page-link" (click)="previous()">Previous</a></li>
+          <li class="page-item"><a class="page-link" >{{number}}</a></li>
+          <li class="page-item"><a class="page-link" >{{number+1}}</a></li>
+          <li class="page-item"><a class="page-link" >{{number+2}}</a></li>
+          <li class="page-item point"><a class="page-link" (click)="next()">Next</a></li>
+        </ul>
+      </nav>
+    </div>
+</div>
