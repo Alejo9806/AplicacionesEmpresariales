@@ -3,7 +3,7 @@
     <Toolbar/>
     <v-main>
     <Search v-on:searchResult="searchResult"/>
-    <ImageList v-bind:items="items"/>
+    <imageList v-bind:items="items"/>
     </v-main>
   </v-app>
 </template>
