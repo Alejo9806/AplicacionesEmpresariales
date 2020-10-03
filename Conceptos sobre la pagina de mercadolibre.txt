@@ -1,0 +1,9 @@
+Mercado libre
+paginador 
+para ordenar los productos cuando hay muchos resultados, trae 50 y los otros no los carga hasta llegar a su pagina
+
+lazy loader 
+lo que hace esque no carga todos los elementos de tacada sino que los carga de a poco con el background mientras navegas por la pagina
+
+thumbnail
+Mercado libre baja la calidad de las imagenes para cargar mas rapido la pagina y la sube en el detalle del producto
