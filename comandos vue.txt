@@ -1,3 +1,0 @@
-vue create EjemploDojoVue
-Default
-vue add vuetify
