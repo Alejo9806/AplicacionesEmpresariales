@@ -1,3 +1,0 @@
-zdWYh6WBwpVjHnG2 user password mongodb atlas sotify
-
-mongodb+srv://new_user_spotify:<password>@cluster0.2vtb8.mongodb.net/<dbname>?retryWrites=true&w=majority para la coneccion
