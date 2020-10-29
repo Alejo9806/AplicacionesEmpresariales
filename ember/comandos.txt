@@ -1,0 +1,8 @@
+npm install -g ember-cli
+ember new <project-name>
+
+ember generate component search-bar --with-component-class
+
+
+ENV.OMDB_ACCESS_TOKEN='da6baf2e';
+  ENV.URL='http://www.omdbapi.com/';
